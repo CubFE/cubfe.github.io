@@ -1,0 +1,152 @@
+import{d as p,r as h,b as j,k as n,w as t,aq as c,e as a,o as r,l as s}from"./style_icon.js";const d={class:"markdown-body"},g=c(`<h1>Badge 徽标</h1><h3>介绍</h3><p>出现在图标或文字右上角的红色圆点、数字或者文字，表示有新内容或者待处理的信息。</p><h3>安装</h3><pre><code class="language-javascript"><span class="hljs-keyword">import</span> { createApp } <span class="hljs-keyword">from</span> <span class="hljs-string">&#39;vue&#39;</span>;
+<span class="hljs-keyword">import</span> { <span class="hljs-title class_">Badge</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">&#39;@cubui/cubui&#39;</span>;
+
+<span class="hljs-keyword">const</span> app = <span class="hljs-title function_">createApp</span>();
+app.<span class="hljs-title function_">use</span>(<span class="hljs-title class_">Badge</span>);
+</code></pre><h3>基础用法</h3>`,6),m=a("pre",null,[a("code",{class:"language-html"},[a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"demo"'),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},":value"),s("="),a("span",{class:"hljs-string"},'"8"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},":value"),s("="),a("span",{class:"hljs-string"},'"76"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},"value"),s("="),a("span",{class:"hljs-string"},'"NEW"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},"dot"),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
+`),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+
+`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"style"),s(">")]),a("span",{class:"language-css"},[s(`
+  `),a("span",{class:"hljs-selector-class"},".demo"),s(` {
+    `),a("span",{class:"hljs-attribute"},"padding"),s(": "),a("span",{class:"hljs-number"},"30px"),s(),a("span",{class:"hljs-number"},"17px"),s(),a("span",{class:"hljs-number"},"0"),s(),a("span",{class:"hljs-number"},"17px"),s(`;
+  }
+  `),a("span",{class:"hljs-selector-class"},".cub-badge"),s(` {
+    `),a("span",{class:"hljs-attribute"},"margin-right"),s(": "),a("span",{class:"hljs-number"},"40px"),s(`;
+  }
+`)]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"style"),s(">")]),s(`
+`)])],-1),b=a("h3",null,"最大值",-1),u=a("pre",null,[a("code",{class:"language-html"},[a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"demo"'),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},":value"),s("="),a("span",{class:"hljs-string"},'"200"'),s(),a("span",{class:"hljs-attr"},":max"),s("="),a("span",{class:"hljs-string"},'"9"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},":value"),s("="),a("span",{class:"hljs-string"},'"200"'),s(),a("span",{class:"hljs-attr"},":max"),s("="),a("span",{class:"hljs-string"},'"20"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},":value"),s("="),a("span",{class:"hljs-string"},'"200"'),s(),a("span",{class:"hljs-attr"},":max"),s("="),a("span",{class:"hljs-string"},'"99"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
+`),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+
+`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"style"),s(">")]),a("span",{class:"language-css"},[s(`
+  `),a("span",{class:"hljs-selector-class"},".demo"),s(` {
+    `),a("span",{class:"hljs-attribute"},"padding"),s(": "),a("span",{class:"hljs-number"},"30px"),s(),a("span",{class:"hljs-number"},"17px"),s(),a("span",{class:"hljs-number"},"0"),s(),a("span",{class:"hljs-number"},"17px"),s(`;
+  }
+  `),a("span",{class:"hljs-selector-class"},".cub-badge"),s(` {
+    `),a("span",{class:"hljs-attribute"},"margin-right"),s(": "),a("span",{class:"hljs-number"},"40px"),s(`;
+  }
+`)]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"style"),s(">")]),s(`
+`)])],-1),o=a("h3",null,"自定义颜色",-1),i=a("pre",null,[a("code",{class:"language-html"},[a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"demo"'),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},":value"),s("="),a("span",{class:"hljs-string"},'"8"'),s(),a("span",{class:"hljs-attr"},"color"),s("="),a("span",{class:"hljs-string"},'"linear-gradient(315deg, rgba(73,143,242,1) 0%,rgba(73,101,242,1) 100%)"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},":value"),s("="),a("span",{class:"hljs-string"},'"76"'),s(),a("span",{class:"hljs-attr"},"color"),s("="),a("span",{class:"hljs-string"},'"linear-gradient(315deg, rgba(73,143,242,1) 0%,rgba(73,101,242,1) 100%)"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},"value"),s("="),a("span",{class:"hljs-string"},'"NEW"'),s(),a("span",{class:"hljs-attr"},"color"),s("="),a("span",{class:"hljs-string"},'"linear-gradient(315deg, rgba(73,143,242,1) 0%,rgba(73,101,242,1) 100%)"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},"dot"),s(),a("span",{class:"hljs-attr"},"color"),s("="),a("span",{class:"hljs-string"},'"linear-gradient(315deg, rgba(73,143,242,1) 0%,rgba(73,101,242,1) 100%)"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
+`),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+
+`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"style"),s(">")]),a("span",{class:"language-css"},[s(`
+  `),a("span",{class:"hljs-selector-class"},".demo"),s(` {
+    `),a("span",{class:"hljs-attribute"},"padding"),s(": "),a("span",{class:"hljs-number"},"30px"),s(),a("span",{class:"hljs-number"},"17px"),s(),a("span",{class:"hljs-number"},"0"),s(),a("span",{class:"hljs-number"},"17px"),s(`;
+  }
+  `),a("span",{class:"hljs-selector-class"},".cub-badge"),s(` {
+    `),a("span",{class:"hljs-attribute"},"margin-right"),s(": "),a("span",{class:"hljs-number"},"40px"),s(`;
+  }
+`)]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"style"),s(">")]),s(`
+`)])],-1),x=a("h3",null,"自定义徽标内容",-1),v=a("pre",null,[a("code",{class:"language-html"},[a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"demo"'),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"template"),s(" #"),a("span",{class:"hljs-attr"},"icon"),s(">")]),s(`
+        `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"Check"),s(),a("span",{class:"hljs-attr"},"color"),s("="),a("span",{class:"hljs-string"},'"#ffffff"'),s(),a("span",{class:"hljs-attr"},"width"),s("="),a("span",{class:"hljs-string"},'"12px"'),s(),a("span",{class:"hljs-attr"},"height"),s("="),a("span",{class:"hljs-string"},'"12px"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"Check"),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"template"),s(" #"),a("span",{class:"hljs-attr"},"icon"),s(">")]),s(`
+        `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"Link"),s(),a("span",{class:"hljs-attr"},"color"),s("="),a("span",{class:"hljs-string"},'"#ffffff"'),s(),a("span",{class:"hljs-attr"},"width"),s("="),a("span",{class:"hljs-string"},'"12px"'),s(),a("span",{class:"hljs-attr"},"height"),s("="),a("span",{class:"hljs-string"},'"12px"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"Link"),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"template"),s(" #"),a("span",{class:"hljs-attr"},"icon"),s(">")]),s(`
+       `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"Download"),s(),a("span",{class:"hljs-attr"},"color"),s("="),a("span",{class:"hljs-string"},'"#ffffff"'),s(),a("span",{class:"hljs-attr"},"width"),s("="),a("span",{class:"hljs-string"},'"12px"'),s(),a("span",{class:"hljs-attr"},"height"),s("="),a("span",{class:"hljs-string"},'"12px"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"Download"),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
+`),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+
+`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"script"),s(),a("span",{class:"hljs-attr"},"setup"),s(">")]),a("span",{class:"language-javascript"},[s(`
+`),a("span",{class:"hljs-keyword"},"import"),s(" { "),a("span",{class:"hljs-title class_"},"Check"),s(", "),a("span",{class:"hljs-title class_"},"Link"),s(", "),a("span",{class:"hljs-title class_"},"Download"),s(" } "),a("span",{class:"hljs-keyword"},"from"),s(),a("span",{class:"hljs-string"},"'@cubfe/icons-vue'"),s(`;
+`)]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"script"),s(">")]),s(`
+
+`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"style"),s(">")]),a("span",{class:"language-css"},[s(`
+`),a("span",{class:"hljs-selector-class"},".demo"),s(`{
+  `),a("span",{class:"hljs-attribute"},"padding"),s(": "),a("span",{class:"hljs-number"},"30px"),s(),a("span",{class:"hljs-number"},"17px"),s(),a("span",{class:"hljs-number"},"0"),s(),a("span",{class:"hljs-number"},"17px"),s(`;
+}
+`),a("span",{class:"hljs-selector-class"},".cub-badge"),s(` {
+  `),a("span",{class:"hljs-attribute"},"margin-right"),s(": "),a("span",{class:"hljs-number"},"40px"),s(`;
+}
+`)]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"style"),s(">")]),s(`
+
+`)])],-1),w=a("h3",null,"自定义位置",-1),I=a("pre",null,[a("code",{class:"language-html"},[a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"demo"'),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},":value"),s("="),a("span",{class:"hljs-string"},'"8"'),s(),a("span",{class:"hljs-attr"},"top"),s("="),a("span",{class:"hljs-string"},'"5"'),s(),a("span",{class:"hljs-attr"},"right"),s("="),a("span",{class:"hljs-string"},'"5"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},":value"),s("="),a("span",{class:"hljs-string"},'"76"'),s(),a("span",{class:"hljs-attr"},"top"),s("="),a("span",{class:"hljs-string"},'"10"'),s(),a("span",{class:"hljs-attr"},"right"),s("="),a("span",{class:"hljs-string"},'"10"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},"value"),s("="),a("span",{class:"hljs-string"},'"NEW"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-avatar"),s(),a("span",{class:"hljs-attr"},"shape"),s("="),a("span",{class:"hljs-string"},'"square"'),s(">")]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-avatar"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
+`),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+
+`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"style"),s(">")]),a("span",{class:"language-css"},[s(`
+  `),a("span",{class:"hljs-selector-class"},".demo"),s(` {
+    `),a("span",{class:"hljs-attribute"},"padding"),s(": "),a("span",{class:"hljs-number"},"30px"),s(),a("span",{class:"hljs-number"},"17px"),s(),a("span",{class:"hljs-number"},"0"),s(),a("span",{class:"hljs-number"},"17px"),s(`;
+  }
+  `),a("span",{class:"hljs-selector-class"},".cub-badge"),s(` {
+    `),a("span",{class:"hljs-attribute"},"margin-right"),s(": "),a("span",{class:"hljs-number"},"40px"),s(`;
+  }
+`)]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"style"),s(">")]),s(`
+`)])],-1),C=a("h3",null,"独立展示",-1),f=a("pre",null,[a("code",{class:"language-html"},[a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"demo"'),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},":value"),s("="),a("span",{class:"hljs-string"},'"8"'),s(">")]),s(),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},":value"),s("="),a("span",{class:"hljs-string"},'"76"'),s(">")]),s(),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-badge"),s(),a("span",{class:"hljs-attr"},"value"),s("="),a("span",{class:"hljs-string"},'"NEW"'),s(">")]),s(),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-badge"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
+`),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+
+`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"style"),s(">")]),a("span",{class:"language-css"},[s(`
+  `),a("span",{class:"hljs-selector-class"},".demo"),s(` {
+    `),a("span",{class:"hljs-attribute"},"padding"),s(": "),a("span",{class:"hljs-number"},"30px"),s(),a("span",{class:"hljs-number"},"17px"),s(),a("span",{class:"hljs-number"},"0"),s(),a("span",{class:"hljs-number"},"17px"),s(`;
+  }
+  `),a("span",{class:"hljs-selector-class"},".cub-badge"),s(` {
+    `),a("span",{class:"hljs-attribute"},"margin-right"),s(": "),a("span",{class:"hljs-number"},"40px"),s(`;
+  }
+`)]),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"style"),s(">")]),s(`
+`)])],-1),y=c('<h2>API</h2><h3>Props</h3><table><thead><tr><th>参数</th><th>说明</th><th>类型</th><th>默认值</th></tr></thead><tbody><tr><td>value</td><td>显示的内容</td><td>string</td><td><code class="">-</code></td></tr><tr><td>max</td><td><code class="">value</code> 为数值时，最大值</td><td>number</td><td><code class="">10000</code></td></tr><tr><td>z-index</td><td>徽标的 <code class="">z-index</code> 值</td><td>number</td><td><code class="">10</code></td></tr><tr><td>dot</td><td>是否为小点</td><td>boolean</td><td><code class="">false</code></td></tr><tr><td>bubble(<code class="">&gt;v4.0.0</code>)</td><td>是否为气泡形状</td><td>Boolean</td><td><code class="">false</code></td></tr><tr><td>hidden</td><td>是否隐藏</td><td>boolean</td><td><code class="">false</code></td></tr><tr><td>top</td><td>上下偏移量，支持单位设置，可设置为：<code class="">5px</code> 等</td><td>number</td><td><code class="">0</code></td></tr><tr><td>right</td><td>左右偏移量，支持单位设置，可设置为：<code class="">5px</code> 等</td><td>number</td><td><code class="">0</code></td></tr><tr><td>color</td><td>徽标背景颜色</td><td>string</td><td><code class="">#fa2c19</code></td></tr></tbody></table><h3>Slots</h3><table><thead><tr><th>名称</th><th>说明</th></tr></thead><tbody><tr><td>default</td><td>徽标包裹的子元素</td></tr><tr><td>icon</td><td>徽标自定义</td></tr></tbody></table><h2>主题定制</h2><h3>样式变量</h3><p>组件提供了下列 CSS 变量，可用于自定义样式，使用方法请参考 <a href="#/zh-CN/component/configprovider">ConfigProvider 组件</a>。</p><table><thead><tr><th>名称</th><th>默认值</th></tr></thead><tbody><tr><td>--cub-badge-background-color</td><td><em>linear-gradient(135deg, var(--cub-primary-color) 0%, var(--cub-primary-color-end) 100%)</em></td></tr><tr><td>--cub-badge-color</td><td><em>#fff</em></td></tr><tr><td>--cub-badge-font-size</td><td><em>var(--cub-font-size-1)</em></td></tr><tr><td>--cub-badge-border-radius</td><td><em>14px</em></td></tr><tr><td>--cub-badge-icon-padding</td><td><em>4px</em></td></tr><tr><td>--cub-badge-padding</td><td><em>0 5px</em></td></tr><tr><td>--cub-badge-content-transform</td><td><em>translate(50%, -50%)</em></td></tr><tr><td>--cub-badge-z-index</td><td><em>1</em></td></tr><tr><td>--cub-badge-dot-width</td><td><em>7px</em></td></tr><tr><td>--cub-badge-dot-height</td><td><em>7px</em></td></tr><tr><td>--cub-badge-dot-border-radius</td><td><em>7px</em></td></tr><tr><td>--cub-badge-dot-padding</td><td><em>0px</em></td></tr></tbody></table>',9),Y={},D="",A=p({__name:"doc",setup(k,{expose:e}){return e({frontmatter:{},excerpt:void 0}),(X,_)=>{const l=h("demo-block");return r(),j("div",d,[g,n(l,{"data-type":"vue","data-value":"PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImRlbW8ixBUgIDxjdWItYmFkZ2UgOnZhbHVlPSI4xxvHHWF2YXRhciBzaGFwZT0ic3F1YXJlIj48L8ocx0rFEsVL2Vs3Nt9c31zUXMdbTkVX31zfXNRcZG9031TfVMZUPC9kaXY+Cjwv6gGRCjxzdHlsxR4u5AGPIHvFOXBhZGRpbmc6IDMwcHggMTdweCAwxQc7CiAgfcQtyVnHMm1hcmdpbi1yaWdodDogNDDIKzwvx2E="},{default:t(()=>[m]),_:1}),b,n(l,{"data-type":"vue","data-value":"PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImRlbW8ixBUgIDxjdWItYmFkZ2UgOnZhbHVlPSIyMDAiIDptYXg9IjnHJscoYXZhdGFyIHNoYXBlPSJzcXVhcmUiPjwvyhzHVcUSxVbfZsVmMjDfZ99n32fIZzn/AM7fZ8hnPC9kaXY+Cjwv6gFeCjxzdHlsxR4u5AFcIHvFOXBhZGRpbmc6IDMwcHggMTdweCAwxQc7CiAgfcQtyVnHMm1hcmdpbi1yaWdodDogNDDIKzwvx2E="},{default:t(()=>[u]),_:1}),o,n(l,{"data-type":"vue","data-value":"PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImRlbW8ixBUgIDxjdWItYmFkZ2UgOnZhbHVlPSI4IiBjb2xvcj0ibGluZWFyLWdyYWRpZW50KDMxNWRlZywgcmdiYSg3MywxNDMsMjQyLDEpIDAlLMkWMDHIFjEwMCUpx2rHbGF2YXRhciBzaGFwZT0ic3F1YXJlIj48L8ocxi/GEuUAmvkAqjc2/wCr/wCr/wCr/wCr/wCrxRAg5wCqTkVX/wCr/wCr/wCr/wCr/wCrxRAgZG90/wCj/wCj/wCj/wCj9wCjPC9kaXY+Cjwv6gLNCjxzdHlsxR4u5ALLIHvFOXBhZGRpbmc6IDMwcHggMTdweCAwxQc7CiAgfcQtyVnHMm1hcmdpbi1yaWdodDogNDDIKzwvx2E="},{default:t(()=>[i]),_:1}),x,n(l,{"data-type":"vue","data-value":"PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImRlbW8ixBUgIDxjdWItYmFkZ8UlxRLINiAjaWNvbsgXICA8Q2hlY2sgY29sb3I9IiNmxQEiIHdpZHRoPSIxMnB4IiBoZWlnaHTHDj48L8UzyVovyFvJEsR+YXZhdGFyIHNoYXBlPSJzcXVhcmXEPMocxi/GEusArP8AvO0AvExpbv8Au/AAu8Qy/wC6/wC6/wC6/wC6xxhEb3dubG9hZP8Ave8Avcg2/wDB/wDB+ADBPC9kaXY+CsxVCjxzY3JpcHQgc2V0dXA+CmltcG9ydCB7IOUCAiwg5AFOLCDpAM19IGZyb20gJ0BjdWJmZS/kAPNzLXZ1ZSc7CjwvxkrFVHR5bGU+Ci7kArF7CiAgcGFkZGluZzogMzBweCAxN3B4IDDFBzsKfQou6QCkIMQsbWFyZ2luLXLkARk6IDQwxiU8L8dUCg=="},{default:t(()=>[v]),_:1}),w,n(l,{"data-type":"vue","data-value":"PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImRlbW8ixBUgIDxjdWItYmFkZ2UgOnZhbHVlPSI4IiB0b3A9IjUiIHJpZ2h0xArGLccvYXZhdGFyIHNoYXBlPSJzcXVhcmUiPjwvyhzHXMUSxV3ZbTc2x24xMMlvMTDfcN9w1HDHb05FV99c31zHXDwvZGl2Pgo8L+oBYwo8c3R5bMUeLuQBYSB7xTlwYWRkaW5nOiAzMHB4IDE3cHggMMUHOwogIH3ELclZxzJtYXJnaW4t5QENOiA0MMgrPC/HYQ=="},{default:t(()=>[I]),_:1}),C,n(l,{"data-type":"vue","data-value":"PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImRlbW8ixBUgIDxjdWItYmFkZ2UgOnZhbHVlPSI4Ij4gPC/JGNkoNzbfKccoTkVX0ik8L2Rpdj4KPC/qAKQKPHN0eWzFHi7kAKIge8VRcGFkZGluZzogMzBweCAxN3B4IDDFBzsKICB9xC3KcsYybWFyZ2luLXJpZ2h0OiA0MMgrPC/HYQ=="},{default:t(()=>[f]),_:1}),y])}}});export{A as default,D as excerpt,Y as frontmatter};

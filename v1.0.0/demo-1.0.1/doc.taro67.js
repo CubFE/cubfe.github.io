@@ -1,0 +1,20 @@
+import{d as p,r as o,b as h,k as l,w as n,aq as e,e as a,o as d,l as s}from"./style_icon.js";const r={class:"markdown-body"},i=e(`<h1>Sticky 粘性布局</h1><h3>介绍</h3><p>使用 fixed 定位实现的类似 <code class="">position: sticky</code> 的吸顶效果。</p><h3>安装</h3><pre><code class="language-js"><span class="hljs-keyword">import</span> { createApp } <span class="hljs-keyword">from</span> <span class="hljs-string">&#39;vue&#39;</span>;
+<span class="hljs-keyword">import</span> { <span class="hljs-title class_">Sticky</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">&#39;@cubui/cubui-taro&#39;</span>;
+
+<span class="hljs-keyword">const</span> app = <span class="hljs-title function_">createApp</span>();
+app.<span class="hljs-title function_">use</span>(<span class="hljs-title class_">Sticky</span>);
+</code></pre><h3>基础用法</h3>`,6),j=a("pre",null,[a("code",{class:"language-vue"},[a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"view"),s(),a("span",{class:"hljs-attr"},"style"),s("="),a("span",{class:"hljs-string"},'"height: 200vh; padding-top: 100px;"'),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-sticky"),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-button"),s(),a("span",{class:"hljs-attr"},"type"),s("="),a("span",{class:"hljs-string"},'"primary"'),s(">")]),s("吸顶按钮"),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-button"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-sticky"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"view"),s(">")]),s(`
+`),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+`)])],-1),g=a("h3",null,"吸顶距离",-1),m=a("pre",null,[a("code",{class:"language-vue"},[a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"view"),s(),a("span",{class:"hljs-attr"},"style"),s("="),a("span",{class:"hljs-string"},'"height: 200vh; padding-top: 200px;"'),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-sticky"),s(),a("span",{class:"hljs-attr"},"top"),s("="),a("span",{class:"hljs-string"},'"120"'),s(">")]),s(`
+      `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"cub-button"),s(),a("span",{class:"hljs-attr"},"type"),s("="),a("span",{class:"hljs-string"},'"primary"'),s(">")]),s("吸顶距离120px"),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-button"),s(">")]),s(`
+    `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"cub-sticky"),s(">")]),s(`
+  `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"view"),s(">")]),s(`
+`),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"template"),s(">")]),s(`
+`)])],-1),u=e('<h2>API</h2><h3>Props</h3><table><thead><tr><th>参数</th><th>说明</th><th>类型</th><th>默认值</th></tr></thead><tbody><tr><td>top</td><td>吸顶距离</td><td>number</td><td><code class="">0</code></td></tr><tr><td>z-index</td><td>吸附时的层级</td><td>number</td><td><code class="">99</code></td></tr></tbody></table>',3),k={},w="",v=p({__name:"doc.taro",setup(b,{expose:c}){return c({frontmatter:{},excerpt:void 0}),(y,_)=>{const t=o("demo-block");return d(),h("div",r,[i,l(t,{"data-type":"vue","data-value":"PHRlbXBsYXRlPgogIDx2aWV3IHN0eWxlPSJoZWlnaHQ6IDIwMHZoOyBwYWRkaW5nLXRvcDogMTAwcHg7IsQ0ICA8Y3ViLXN0aWNrecYRxxNidXR0b24gdHlwZT0icHJpbWFyeSI+5ZC46aG25oyJ6ZKuPC/KKMdMxRLKTTwv5ACTPgo8L+oAqA=="},{default:n(()=>[j]),_:1}),g,l(t,{"data-type":"vue","data-value":"PHRlbXBsYXRlPgogIDx2aWV3IHN0eWxlPSJoZWlnaHQ6IDIwMHZoOyBwYWRkaW5nLXRvcMUUcHg7IsQ0ICA8Y3ViLXN0aWNreSB0b3A9IjEyMMcbxx1idXR0b24gdHlwZT0icHJpbWFyeSI+5ZC46aG26Led56a7MTIwcHg8L8otx1vFEsZcxBI8L+QAoj4KPC/qALc="},{default:n(()=>[m]),_:1}),u])}}});export{v as default,w as excerpt,k as frontmatter};
